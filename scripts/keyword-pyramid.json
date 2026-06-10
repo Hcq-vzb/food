@@ -1,0 +1,63 @@
+{
+  "strategy": "Google topical authority pyramid — one primary keyword per URL, no cannibalization",
+  "tiers": {
+    "tier1_homepage": {
+      "url": "/",
+      "primary": "wholesale food additives manufacturer china",
+      "secondary": ["food ingredients china", "china food ingredient supplier", "bulk food additives export"],
+      "title": "Food Ingredients China | Wholesale Food Additives Manufacturer"
+    },
+    "tier2_hub": {
+      "products": {
+        "url": "/products",
+        "primary": "wholesale food additives catalog",
+        "title": "Wholesale Food Additives Catalog | China Manufacturer"
+      },
+      "specification": {
+        "url": "/specification",
+        "primary": "food additives specifications",
+        "title": "Food Additives Specifications & TDS | China Manufacturer"
+      },
+      "faq": {
+        "url": "/faq",
+        "primary": "food additives faq wholesale",
+        "title": "Food Additives FAQ | MOQ, Samples & Export | China Supplier"
+      },
+      "contact": {
+        "url": "/contact",
+        "primary": "contact food ingredients manufacturer china",
+        "title": "Contact Food Ingredients China | Get Wholesale Quote"
+      }
+    },
+    "tier2_categories": {
+      "Thickeners": "thickeners supplier china",
+      "Sweeteners": "sweeteners wholesale china",
+      "Preservatives": "food preservatives manufacturer china",
+      "Emulsifiers": "food emulsifiers supplier china",
+      "Hydrocolloids": "hydrocolloids supplier china",
+      "Flavors": "food flavors supplier china",
+      "Colorants": "food colorants supplier china",
+      "Antioxidants": "food antioxidants supplier china",
+      "Food Ingredients": "food ingredients wholesale china",
+      "Acids & Salts": "food acids salts supplier china",
+      "Water Retention Agents": "water retention agents china",
+      "Nutritional Enhancers": "nutritional enhancers china",
+      "Nutritional Fortifiers": "nutritional fortifiers china",
+      "Edible Oils": "edible oils wholesale china",
+      "Condiments": "food condiments supplier china",
+      "Novel Foods": "novel food ingredients china",
+      "Other Foods": "specialty food ingredients china",
+      "Oil & Fat Exchange": "fat replacers china"
+    },
+    "tier3_products": {
+      "url_pattern": "/products/{slug}",
+      "primary_pattern": "{product name} supplier china",
+      "title_pattern": "{Product Name} Supplier China | Wholesale {Category}",
+      "long_tail_examples": [
+        "xanthan gum manufacturer china",
+        "sucralose wholesale supplier",
+        "sodium benzoate bulk china"
+      ]
+    }
+  }
+}
